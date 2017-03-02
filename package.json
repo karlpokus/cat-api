@@ -1,0 +1,25 @@
+{
+  "name": "cat-api",
+  "version": "0.1.0",
+  "description": "cat api for mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlpokus/cat-api.git"
+  },
+  "author": "Karl Pokus <karl.pokus@gmail.com> (https://github.com/karlpokus)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karlpokus/cat-api/issues"
+  },
+  "homepage": "https://github.com/karlpokus/cat-api#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "mysql": "^2.13.0"
+  }
+}
